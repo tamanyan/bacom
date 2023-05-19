@@ -34,7 +34,8 @@ export const [setLibs, getLibs] = (() => {
         } else if (branch.indexOf('--') > -1) {
           libs = `https://${branch}.hlx.live/libs`;
         } else {
-          libs = `https://${branch}--milo--adobecom.hlx.live/libs`;
+          // libs = `https://${branch}--milo--adobecom.hlx.live/libs`;
+          libs = 'https://jp-word-wrap-options--milo--tamanyan.hlx.page/libs';
         }
       }
       return libs;
